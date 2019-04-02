@@ -1,5 +1,5 @@
 layui.use(['form', 'layer', 'laydate', 'table', 'laytpl'], function () {
-    var form = layui.form,
+    const form = layui.form,
         layer = parent.layer === undefined ? layui.layer : top.layer,
         $ = layui.jquery,
         laydate = layui.laydate,
@@ -26,10 +26,10 @@ layui.use(['form', 'layer', 'laydate', 'table', 'laytpl'], function () {
 
     //修改密码
     form.on("submit(changePwd)", function (data) {
-        var index = layer.msg('提交中，请稍候', {icon: 16, time: false, shade: 0.8});
+        const index = layer.msg('提交中，请稍候', {icon: 16, time: false, shade: 0.8});
         setTimeout(function () {
             $.ajax({
-                url: $.cookie("tempUrl") + "admin/updatePasswordBySession?token=" + $.cookie("token"),
+                url: $.cookie("tempUrl") + "admin/updateByPassword?token=" + $.cookie("token"),
                 type: "PUT",
                 datatype: "application/json",
                 contentType: "application/json;charset=utf-8",
@@ -49,7 +49,6 @@ layui.use(['form', 'layer', 'laydate', 'table', 'laytpl'], function () {
                                         top.layer.close(index);
                                         layer.closeAll("iframe");
                                         //跳转至登陆界面
-                                        $.cookie('truename', "", {path: '/'});
                                         $.cookie('token', "", {path: '/'});
                                         top.location.replace("../../login.html");
                                     }

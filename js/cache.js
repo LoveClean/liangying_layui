@@ -8,7 +8,7 @@ layui.use(['form', 'jquery', "layer"], function () {
     var phone = "";
     //获取登陆用户的手机号，用于解锁屏幕
     $.ajax({
-        url: $.cookie("tempUrl") + "manager/get_user_info.do?token=" + $.cookie("token"),
+        url: $.cookie("tempUrl") + "admin/selectBySession?token=" + $.cookie("token"),
         type: "GET",
         success: function (result) {
             phone = result.data.phone;
@@ -83,8 +83,8 @@ layui.use(['form', 'jquery', "layer"], function () {
     //安全退出
     $(".signOut").click(function () {
         $.ajax({
-            url: $.cookie("tempUrl") + "manager/logout?token=" + $.cookie("token"),
-            type: "GET",
+            url: $.cookie("tempUrl") + "admin/logout?token=" + $.cookie("token"),
+            type: "POST",
             success: function (result) {
                 if (result.code === 0) {
                     $.cookie('truename', "", {path: '/'});

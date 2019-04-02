@@ -1,5 +1,31 @@
+//防止页面单独打开【登录页面除外】
+if (/liangying_layui\/page/.test(top.location.href) && !/login.html/.test(top.location.href)) {
+    top.window.location.href = window.location.href.split("liangying_layui/page/")[0] + 'liangying_layui/';
+}
+//外部图标链接
+// var iconUrl = "https://at.alicdn.com/t/font_400842_q6tk84n9ywvu0udi.css";
+
 /** layui-v2.4.5 MIT License By https://www.layui.com */
 ;!function (e) {
+
+    //单点登陆(防止同一账号在多个地方同时登陆)
+    $.ajax({
+        url: $.cookie("tempUrl") + "admin/selectBySession?token=" + $.cookie("token"),
+        type: "GET",
+        // success: function (result) {
+        //     console.log("success");
+        // },
+        error: function (e) {
+            console.log("检测到您的账号已在其他地方登陆，请重新登陆。如非本人操作，请及时修改密码或联系管理员");
+            alert("检测到您的账号已在其他地方登陆，请重新登陆。\n如非本人操作，请及时修改密码或联系管理员！");
+            // var pathName = window.document.location.pathname;
+            // var projectName = pathName.substring(0, pathName.substr(1).indexOf('/') + 1);
+            // console.log(projectName);
+            // top.location.replace(projectName + "/login.html");
+            top.location.replace("http://122.112.225.34");
+        }
+    });
+
     "use strict";
     var t = document, o = {modules: {}, status: {}, timeout: 10, event: {}}, n = function () {
         this.v = "2.4.5"
