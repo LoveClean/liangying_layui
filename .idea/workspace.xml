@@ -1,99 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="40c75c65-909d-49df-b852-fcbf046f0599" name="默认" comment="默认">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/page/article/articleAdd.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/page/article/articleAdd.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/page/article/articleList.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/page/article/articleUpd.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/page/article/articleUpd.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/bodyTab.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/bodyTab.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/cache.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/cache.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/json/navs.json" beforeDir="false" afterPath="$PROJECT_DIR$/json/navs.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/login.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/page/404.html" beforeDir="false" afterPath="$PROJECT_DIR$/page/404.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/page/405.html" beforeDir="false" afterPath="$PROJECT_DIR$/page/405.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/page/admin/AddAdmin.html" beforeDir="false" afterPath="$PROJECT_DIR$/page/admin/adminAdd.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/page/admin/AddAdmin.js" beforeDir="false" afterPath="$PROJECT_DIR$/page/admin/adminAdd.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/page/admin/ListAdmin.html" beforeDir="false" afterPath="$PROJECT_DIR$/page/admin/adminList.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/page/admin/ListAdmin.js" beforeDir="false" afterPath="$PROJECT_DIR$/page/admin/adminList.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/page/admin/UpdAdmin.html" beforeDir="false" afterPath="$PROJECT_DIR$/page/admin/adminUpd.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/page/admin/UpdAdmin.js" beforeDir="false" afterPath="$PROJECT_DIR$/page/admin/adminUpd.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/page/advertising/AddAdvertising.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/page/advertising/AddAdvertising.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/page/advertising/ListAdvertising.html" beforeDir="false" afterPath="$PROJECT_DIR$/page/article/articleList.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/page/advertising/ListAdvertising.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/page/advertising/UpdAdvertising.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/page/advertising/UpdAdvertising.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/page/advertising/preview.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/page/advertisingGroup/AddAdvertisingGroup.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/page/advertisingGroup/AddAdvertisingGroup.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/page/advertisingGroup/ListAdvertisingGroup.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/page/advertisingGroup/ListAdvertisingGroup.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/page/advertisingGroup/UpdAdvertisingGroup.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/page/advertisingGroup/UpdAdvertisingGroup.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/page/advertisingPut/AddAdvertisingPut.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/page/advertisingPut/AddAdvertisingPutTwo.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/page/advertisingPut/ListAdvertisingPut.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/page/advertisingPut/ListAdvertisingPut.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/page/advertisingPut/UpdAdvertisingPut.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/page/advertisingPut/UpdAdvertisingPutTwo.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/page/dictionary/device-brand.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/page/dictionary/device-brand.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/page/dictionary/device-spec.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/page/dictionary/device-spec.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/page/dictionary/device-type.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/page/dictionary/device-type.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/page/dictionary/syspara.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/page/dictionary/syspara.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/page/eleTree/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/page/eleTree/eleTree.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/page/eleTree/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/page/eleTree/test.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/page/eleTree/tree.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/page/live/liveAdd.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/page/live/liveAdd.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/page/live/liveList.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/page/live/liveList.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/page/live/liveUpd.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/page/live/liveUpd.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/page/livePut/livePutAdd.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/page/livePut/livePutAddTwo.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/page/livePut/livePutList.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/page/livePut/livePutList.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/page/livePut/livePutUpt.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/page/livePut/livePutUptTwo.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/page/main.html" beforeDir="false" afterPath="$PROJECT_DIR$/page/main.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/page/maps/AddMaps.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/page/maps/AddMaps.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/page/maps/ListMaps.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/page/maps/ListMaps.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/page/maps/UpdMaps.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/page/maps/UpdMaps.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/page/material/AddMaterial.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/page/material/AddMaterial.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/page/material/ListMaterial.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/page/material/ListMaterial.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/page/material/UpdMaterial.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/page/material/UpdMaterial.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/page/materialGroup/AddMaterialGroup.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/page/materialGroup/AddMaterialGroup.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/page/materialGroup/ListMaterialGroup.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/page/materialGroup/ListMaterialGroup.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/page/materialGroup/UpdMaterialGroup.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/page/materialGroup/UpdMaterialGroup.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/page/others/logs.html" beforeDir="false" afterPath="$PROJECT_DIR$/page/others/logs.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/page/user/changePwd.html" beforeDir="false" afterPath="$PROJECT_DIR$/page/user/changePwd.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/page/user/user.js" beforeDir="false" afterPath="$PROJECT_DIR$/page/user/user.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/page/user/userInfo.html" beforeDir="false" afterPath="$PROJECT_DIR$/page/user/userInfo.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/page/user/userInfo.js" beforeDir="false" afterPath="$PROJECT_DIR$/page/user/userInfo.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/page/util/video-js.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/page/util/video.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/page/util/video.min.js" beforeDir="false" />
+    <list default="true" id="40c75c65-909d-49df-b852-fcbf046f0599" name="默认" comment="第一版2019/04/02">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -109,16 +18,16 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/login.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="33" column="10" lean-forward="true" selection-start-line="33" selection-start-column="10" selection-end-line="33" selection-end-column="10" />
+            <state relative-caret-position="133">
+              <caret line="25" column="18" selection-start-line="25" selection-start-column="18" selection-end-line="25" selection-end-column="18" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/js/login.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="285">
@@ -289,22 +198,22 @@
     <property name="node.js.selected.package.prettier" value="" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="settings.github" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\64165\Desktop\liangying\liangying_layui\page\log" />
-      <recent name="C:\Users\64165\Desktop\liangying\liangying_layui\images" />
-      <recent name="C:\Users\64165\Desktop\liangying\liangying_layui" />
-      <recent name="C:\Users\64165\Desktop\liangying\liangying_layui\layui\lay\modules" />
-      <recent name="C:\Users\64165\Desktop\liangying\liangying_layui\layui\lay" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\64165\Desktop\liangying\liangying_layui\layui" />
       <recent name="C:\Users\64165\Desktop\liangying\liangying_layui\page" />
       <recent name="C:\Users\64165\Desktop\liangying\liangying_layui\page\slideshow" />
       <recent name="C:\Users\64165\Desktop\liangying\liangying_layui" />
       <recent name="C:\Users\64165\Desktop\liangying\liangying_layui\images" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\64165\Desktop\liangying\liangying_layui\page\log" />
+      <recent name="C:\Users\64165\Desktop\liangying\liangying_layui\images" />
+      <recent name="C:\Users\64165\Desktop\liangying\liangying_layui" />
+      <recent name="C:\Users\64165\Desktop\liangying\liangying_layui\layui\lay\modules" />
+      <recent name="C:\Users\64165\Desktop\liangying\liangying_layui\layui\lay" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -495,12 +404,21 @@
       <workItem from="1554095964900" duration="82000" />
       <workItem from="1554096577612" duration="2935000" />
       <workItem from="1554108450938" duration="1497000" />
-      <workItem from="1554167482846" duration="16347000" />
+      <workItem from="1554167482846" duration="17556000" />
+      <workItem from="1554191050764" duration="28000" />
     </task>
+    <task id="LOCAL-00001" summary="第一版2019/04/02">
+      <created>1554186366058</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1554186366058</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="925158000" />
+    <option name="totallyTimeSpent" value="926395000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
@@ -518,7 +436,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Terminal" order="8" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" weight="0.3281471" />
-      <window_info anchor="bottom" id="Version Control" order="10" show_stripe_button="false" weight="0.3286119" />
+      <window_info anchor="bottom" id="Version Control" order="10" weight="0.3286119" />
       <window_info anchor="bottom" id="调试" order="11" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -532,6 +450,8 @@
     <ignored-roots>
       <path value="$PROJECT_DIR$" />
     </ignored-roots>
+    <MESSAGE value="第一版2019/04/02" />
+    <option name="LAST_COMMIT_MESSAGE" value="第一版2019/04/02" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/layui/layui2.js" />
@@ -722,13 +642,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/page/member/memberInfo.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-106">
-          <caret line="4" column="21" selection-start-line="4" selection-start-column="21" selection-end-line="4" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/layui/css/layui.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="57">
@@ -897,15 +810,15 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/login.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="33" column="10" lean-forward="true" selection-start-line="33" selection-start-column="10" selection-end-line="33" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/LICENSE">
       <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/login.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="25" column="18" selection-start-line="25" selection-start-column="18" selection-end-line="25" selection-end-column="18" />
+        </state>
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/js/login.js">
       <provider selected="true" editor-type-id="text-editor">
