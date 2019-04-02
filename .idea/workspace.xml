@@ -1,8 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="40c75c65-909d-49df-b852-fcbf046f0599" name="默认" comment="第一版2019/04/02">
+    <list default="true" id="40c75c65-909d-49df-b852-fcbf046f0599" name="默认" comment="更新&#10;&lt;html lang=&quot;zh&quot;&gt;">
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/login.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/page/404.html" beforeDir="false" afterPath="$PROJECT_DIR$/page/404.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/page/405.html" beforeDir="false" afterPath="$PROJECT_DIR$/page/405.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/page/admin/adminAdd.html" beforeDir="false" afterPath="$PROJECT_DIR$/page/admin/adminAdd.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/page/admin/adminList.html" beforeDir="false" afterPath="$PROJECT_DIR$/page/admin/adminList.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/page/admin/adminUpd.html" beforeDir="false" afterPath="$PROJECT_DIR$/page/admin/adminUpd.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/page/information/informationAdd.html" beforeDir="false" afterPath="$PROJECT_DIR$/page/information/informationAdd.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/page/information/informationList.html" beforeDir="false" afterPath="$PROJECT_DIR$/page/information/informationList.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/page/information/informationUpd.html" beforeDir="false" afterPath="$PROJECT_DIR$/page/information/informationUpd.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/page/loan/carFile.html" beforeDir="false" afterPath="$PROJECT_DIR$/page/loan/carFile.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/page/loan/houseFile.html" beforeDir="false" afterPath="$PROJECT_DIR$/page/loan/houseFile.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/page/loan/loanList.html" beforeDir="false" afterPath="$PROJECT_DIR$/page/loan/loanList.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/page/log/admin.html" beforeDir="false" afterPath="$PROJECT_DIR$/page/log/admin.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/page/log/sms.html" beforeDir="false" afterPath="$PROJECT_DIR$/page/log/sms.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/page/log/user.html" beforeDir="false" afterPath="$PROJECT_DIR$/page/log/user.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/page/log/userLogin.html" beforeDir="false" afterPath="$PROJECT_DIR$/page/log/userLogin.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/page/log/userUpdate.html" beforeDir="false" afterPath="$PROJECT_DIR$/page/log/userUpdate.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/page/main.html" beforeDir="false" afterPath="$PROJECT_DIR$/page/main.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/page/member/idcard.html" beforeDir="false" afterPath="$PROJECT_DIR$/page/member/idcard.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/page/member/memberInfo.html" beforeDir="false" afterPath="$PROJECT_DIR$/page/member/memberInfo.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/page/member/memberList.html" beforeDir="false" afterPath="$PROJECT_DIR$/page/member/memberList.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/page/slideshow/slideshowAdd.html" beforeDir="false" afterPath="$PROJECT_DIR$/page/slideshow/slideshowAdd.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/page/slideshow/slideshowList.html" beforeDir="false" afterPath="$PROJECT_DIR$/page/slideshow/slideshowList.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/page/slideshow/slideshowUpd.html" beforeDir="false" afterPath="$PROJECT_DIR$/page/slideshow/slideshowUpd.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/page/user/changePwd.html" beforeDir="false" afterPath="$PROJECT_DIR$/page/user/changePwd.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/page/user/userInfo.html" beforeDir="false" afterPath="$PROJECT_DIR$/page/user/userInfo.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/page/withdrawal/withdrawalList.html" beforeDir="false" afterPath="$PROJECT_DIR$/page/withdrawal/withdrawalList.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -22,16 +51,7 @@
         <entry file="file://$PROJECT_DIR$/login.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="95">
-              <caret line="23" column="10" lean-forward="true" selection-start-line="23" selection-start-column="10" selection-end-line="23" selection-end-column="10" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/js/login.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="209">
-              <caret line="11" column="46" lean-forward="true" selection-start-line="11" selection-start-column="46" selection-end-line="11" selection-end-column="46" />
+              <caret line="5" column="41" lean-forward="true" selection-start-line="5" selection-start-column="41" selection-end-line="5" selection-end-column="41" />
             </state>
           </provider>
         </entry>
@@ -98,31 +118,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/page/log/user.html" />
-        <option value="$PROJECT_DIR$/page/log/userLogin.html" />
-        <option value="$PROJECT_DIR$/page/log/userUpdate.html" />
-        <option value="$PROJECT_DIR$/page/member/memberList.html" />
-        <option value="$PROJECT_DIR$/page/member/xxxmemberInfo2.html" />
-        <option value="$PROJECT_DIR$/page/slideshow/slideshowAdd.html" />
-        <option value="$PROJECT_DIR$/page/slideshow/slideshowList.html" />
-        <option value="$PROJECT_DIR$/page/slideshow/slideshowUpd.html" />
-        <option value="$PROJECT_DIR$/page/user/changePwd.html" />
-        <option value="$PROJECT_DIR$/page/user/userInfo.html" />
-        <option value="$PROJECT_DIR$/page/withdrawal/withdrawalList.html" />
-        <option value="$PROJECT_DIR$/page/404.html" />
-        <option value="$PROJECT_DIR$/page/405.html" />
-        <option value="$PROJECT_DIR$/layui/layuiLogin.js" />
-        <option value="$PROJECT_DIR$/js/public.js" />
-        <option value="$PROJECT_DIR$/page/main.html" />
-        <option value="$PROJECT_DIR$/layui/layui2.js" />
-        <option value="$PROJECT_DIR$/index.html" />
-        <option value="$PROJECT_DIR$/json/navs.json" />
-        <option value="$PROJECT_DIR$/js/main.js" />
-        <option value="$PROJECT_DIR$/js/index.js" />
-        <option value="$PROJECT_DIR$/page/admin/adminAdd.js" />
-        <option value="$PROJECT_DIR$/page/admin/adminUpd.js" />
-        <option value="$PROJECT_DIR$/page/information/informationAdd.js" />
-        <option value="$PROJECT_DIR$/page/information/informationUpd.js" />
         <option value="$PROJECT_DIR$/layui/lay/modules/layedit.js" />
         <option value="$PROJECT_DIR$/page/loan/carFile.js" />
         <option value="$PROJECT_DIR$/page/loan/houseFile.js" />
@@ -137,18 +132,43 @@
         <option value="$PROJECT_DIR$/page/user/user.js" />
         <option value="$PROJECT_DIR$/page/user/userInfo.js" />
         <option value="$PROJECT_DIR$/layui/layui.js" />
-        <option value="$PROJECT_DIR$/page/member/memberInfo.html" />
         <option value="$PROJECT_DIR$/page/member/memberInfo.js" />
         <option value="$PROJECT_DIR$/page/member/idcard.js" />
-        <option value="$PROJECT_DIR$/page/member/idcard.html" />
         <option value="$PROJECT_DIR$/css/public.css" />
         <option value="$PROJECT_DIR$/page/admin/adminList.js" />
         <option value="$PROJECT_DIR$/page/information/informationList.js" />
         <option value="$PROJECT_DIR$/page/member/memberList.js" />
         <option value="$PROJECT_DIR$/page/withdrawal/withdrawalList.js" />
         <option value="$PROJECT_DIR$/page/loan/loanList.js" />
-        <option value="$PROJECT_DIR$/login.html" />
         <option value="$PROJECT_DIR$/js/login.js" />
+        <option value="$PROJECT_DIR$/page/admin/adminAdd.html" />
+        <option value="$PROJECT_DIR$/page/admin/adminList.html" />
+        <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/page/main.html" />
+        <option value="$PROJECT_DIR$/page/405.html" />
+        <option value="$PROJECT_DIR$/page/404.html" />
+        <option value="$PROJECT_DIR$/page/withdrawal/withdrawalList.html" />
+        <option value="$PROJECT_DIR$/page/admin/adminUpd.html" />
+        <option value="$PROJECT_DIR$/page/information/informationAdd.html" />
+        <option value="$PROJECT_DIR$/page/information/informationList.html" />
+        <option value="$PROJECT_DIR$/page/information/informationUpd.html" />
+        <option value="$PROJECT_DIR$/page/loan/carFile.html" />
+        <option value="$PROJECT_DIR$/page/loan/houseFile.html" />
+        <option value="$PROJECT_DIR$/page/loan/loanList.html" />
+        <option value="$PROJECT_DIR$/page/log/admin.html" />
+        <option value="$PROJECT_DIR$/page/log/sms.html" />
+        <option value="$PROJECT_DIR$/page/log/user.html" />
+        <option value="$PROJECT_DIR$/page/log/userLogin.html" />
+        <option value="$PROJECT_DIR$/page/log/userUpdate.html" />
+        <option value="$PROJECT_DIR$/page/member/idcard.html" />
+        <option value="$PROJECT_DIR$/page/member/memberInfo.html" />
+        <option value="$PROJECT_DIR$/page/member/memberList.html" />
+        <option value="$PROJECT_DIR$/page/slideshow/slideshowAdd.html" />
+        <option value="$PROJECT_DIR$/page/slideshow/slideshowList.html" />
+        <option value="$PROJECT_DIR$/page/slideshow/slideshowUpd.html" />
+        <option value="$PROJECT_DIR$/page/user/changePwd.html" />
+        <option value="$PROJECT_DIR$/page/user/userInfo.html" />
+        <option value="$PROJECT_DIR$/login.html" />
       </list>
     </option>
   </component>
@@ -169,7 +189,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -186,6 +205,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -198,7 +218,7 @@
     <property name="node.js.selected.package.prettier" value="" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+    <property name="settings.editor.selected.configurable" value="reference.settings.ide.settings.spelling" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -407,6 +427,7 @@
       <workItem from="1554167482846" duration="17556000" />
       <workItem from="1554191050764" duration="28000" />
       <workItem from="1554191914751" duration="199000" />
+      <workItem from="1554192155563" duration="2091000" />
     </task>
     <task id="LOCAL-00001" summary="第一版2019/04/02">
       <created>1554186366058</created>
@@ -422,11 +443,18 @@
       <option name="project" value="LOCAL" />
       <updated>1554192086792</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="第一版2019/04/02">
+      <created>1554192183134</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1554192183135</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="926594000" />
+    <option name="totallyTimeSpent" value="928685000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
@@ -463,153 +491,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="第一版2019/04/02" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/layui/layui2.js" />
-    <entry file="file://$PROJECT_DIR$/layui/layuiLogin.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="14" column="27" lean-forward="true" selection-start-line="14" selection-start-column="27" selection-end-line="14" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/layui/layui.all.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/page/405.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="4" column="20" selection-start-line="4" selection-start-column="20" selection-end-line="4" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/page/information/informationList.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="4" column="21" selection-start-line="4" selection-start-column="21" selection-end-line="4" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/page/404.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="4" column="20" selection-start-line="4" selection-start-column="20" selection-end-line="4" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Temp/scp57929/home/liangying/layui/layui/layui.js" />
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="817">
-          <caret line="43" column="84" selection-start-line="43" selection-start-column="84" selection-end-line="43" selection-end-column="84" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/json/navs.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
-          <caret line="109" column="5" selection-start-line="109" selection-start-column="5" selection-end-line="109" selection-end-column="5" />
-          <folding>
-            <element signature="e#25#1981#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/page/member/memberList.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="551">
-          <caret line="29" column="13" lean-forward="true" selection-start-line="29" selection-start-column="13" selection-end-line="29" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/index.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1311">
-          <caret line="69" column="37" selection-start-line="69" selection-start-column="37" selection-end-line="69" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/page/admin/adminAdd.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="12" column="10" lean-forward="true" selection-start-line="12" selection-start-column="10" selection-end-line="12" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/page/admin/adminUpd.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-380">
-          <caret line="4" column="22" selection-start-line="4" selection-start-column="22" selection-end-line="4" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/page/admin/adminList.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="16" column="7" lean-forward="true" selection-start-line="16" selection-start-column="7" selection-end-line="16" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/layui/lay/modules/layedit.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="291">
-          <caret line="38" column="80" selection-start-line="38" selection-start-column="80" selection-end-line="38" selection-end-column="80" />
-          <folding>
-            <element signature="n#style#0;n#ul#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#label#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#label#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#li#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#button#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#ul#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#textarea#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#li#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#button#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/page/admin/adminUpd.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-68">
-          <caret line="3" selection-start-line="3" selection-end-line="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/page/information/informationAdd.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-741" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/page/information/informationAdd.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-486">
-          <caret line="17" column="38" lean-forward="true" selection-start-line="17" selection-start-column="38" selection-end-line="17" selection-end-column="38" />
-          <folding>
-            <element signature="n#style#0;n#span#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/page/information/informationUpd.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="46">
-          <caret line="83" column="47" selection-start-line="83" selection-start-column="47" selection-end-line="83" selection-end-column="47" />
-          <folding>
-            <element signature="n#style#0;n#span#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/page/loan/carFile.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="399">
-          <caret line="21" column="39" selection-start-line="21" selection-start-column="39" selection-end-line="21" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/page/slideshow/slideshowAdd.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-619">
@@ -633,9 +514,6 @@
           <caret line="30" column="80" selection-start-line="30" selection-start-column="80" selection-end-line="30" selection-end-column="80" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/page/loan/houseFile.html">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/page/loan/houseFile.js">
       <provider selected="true" editor-type-id="text-editor">
@@ -668,9 +546,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/page/slideshow/slideshowUpd.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/page/member/idcard.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="228">
@@ -678,24 +553,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/page/member/idcard.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="18" column="47" selection-start-line="18" selection-start-column="47" selection-end-line="18" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/page/member/memberInfo.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="711">
           <caret line="43" column="65" lean-forward="true" selection-start-line="43" selection-start-column="65" selection-end-line="45" selection-end-column="73" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/page/member/memberInfo.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2345">
-          <caret line="124" column="18" lean-forward="true" selection-start-line="124" selection-start-column="18" selection-end-line="136" selection-end-column="18" />
         </state>
       </provider>
     </entry>
@@ -768,21 +629,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/page/withdrawal/withdrawalList.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
-          <caret line="29" column="17" selection-start-line="29" selection-start-column="15" selection-end-line="29" selection-end-column="17" />
-          <folding>
-            <element signature="n#style#0;n#a#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#a#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#a#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/page/member/memberList.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="532">
@@ -815,24 +661,213 @@
     <entry file="file://$PROJECT_DIR$/LICENSE">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/page/main.html">
+    <entry file="file://$PROJECT_DIR$/js/login.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="639">
-          <caret line="90" column="6" lean-forward="true" selection-start-line="90" selection-start-column="6" selection-end-line="90" selection-end-column="6" />
+        <state relative-caret-position="475">
+          <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/login.js">
+    <entry file="file://$PROJECT_DIR$/page/main.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="11" column="46" lean-forward="true" selection-start-line="11" selection-start-column="46" selection-end-line="11" selection-end-column="46" />
+        <state relative-caret-position="19">
+          <caret line="1" column="16" selection-start-line="1" selection-start-column="16" selection-end-line="1" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/page/404.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="8" column="33" selection-start-line="8" selection-start-column="33" selection-end-line="8" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/page/405.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="1" column="16" selection-start-line="1" selection-start-column="16" selection-end-line="1" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/page/withdrawal/withdrawalList.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="551">
+          <caret line="29" column="17" selection-start-line="29" selection-start-column="15" selection-end-line="29" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/page/admin/adminAdd.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="7" column="21" selection-start-line="7" selection-start-column="21" selection-end-line="7" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/page/admin/adminList.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" column="6" lean-forward="true" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/page/admin/adminUpd.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="12" column="31" selection-start-line="12" selection-start-column="31" selection-end-line="12" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/page/information/informationAdd.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="1" column="16" selection-start-line="1" selection-start-column="16" selection-end-line="1" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/page/information/informationList.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="1" column="16" selection-start-line="1" selection-start-column="16" selection-end-line="1" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/page/information/informationUpd.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="1" column="16" selection-start-line="1" selection-start-column="16" selection-end-line="1" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/page/loan/carFile.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="14" column="27" lean-forward="true" selection-start-line="14" selection-start-column="27" selection-end-line="14" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/page/loan/houseFile.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="1" column="16" selection-start-line="1" selection-start-column="16" selection-end-line="1" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/page/loan/loanList.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="1" column="16" selection-start-line="1" selection-start-column="16" selection-end-line="1" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/page/log/admin.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="1" column="16" selection-start-line="1" selection-start-column="16" selection-end-line="1" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/page/log/sms.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="1" column="16" selection-start-line="1" selection-start-column="16" selection-end-line="1" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/page/log/user.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="1" column="16" selection-start-line="1" selection-start-column="16" selection-end-line="1" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/page/log/userLogin.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="1" column="16" selection-start-line="1" selection-start-column="16" selection-end-line="1" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/page/log/userUpdate.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="1" column="16" selection-start-line="1" selection-start-column="16" selection-end-line="1" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/page/member/idcard.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="1" column="16" selection-start-line="1" selection-start-column="16" selection-end-line="1" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/page/member/memberInfo.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2330">
+          <caret line="1" column="16" selection-start-line="1" selection-start-column="16" selection-end-line="1" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/page/member/memberList.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-126">
+          <caret line="1" column="16" selection-start-line="1" selection-start-column="16" selection-end-line="1" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/page/slideshow/slideshowAdd.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-468">
+          <caret line="1" column="16" selection-start-line="1" selection-start-column="16" selection-end-line="1" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/page/slideshow/slideshowList.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="1" column="16" selection-start-line="1" selection-start-column="16" selection-end-line="1" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/page/slideshow/slideshowUpd.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="463">
+          <caret line="48" column="52" selection-start-line="48" selection-start-column="52" selection-end-line="48" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/page/user/changePwd.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-525">
+          <caret line="1" column="16" selection-start-line="1" selection-start-column="16" selection-end-line="1" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/page/user/userInfo.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-525">
+          <caret line="1" column="16" selection-start-line="1" selection-start-column="16" selection-end-line="1" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/page/withdrawal/withdrawalList.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="437">
+          <caret line="23" column="13" lean-forward="true" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="5" column="43" lean-forward="true" selection-start-line="5" selection-start-column="43" selection-end-line="5" selection-end-column="43" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/login.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="95">
-          <caret line="23" column="10" lean-forward="true" selection-start-line="23" selection-start-column="10" selection-end-line="23" selection-end-column="10" />
+          <caret line="5" column="41" lean-forward="true" selection-start-line="5" selection-start-column="41" selection-end-line="5" selection-end-column="41" />
         </state>
       </provider>
     </entry>
