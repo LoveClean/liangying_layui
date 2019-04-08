@@ -63,22 +63,22 @@ layui.use(['form', 'layer', 'table', 'element'], function () {
             },
             {
                 field: 'jd', title: '进度', minWidth: 200, align: 'center', templet: function (d) {
-                    if (d.status == 0) {
+                    if (d.status === 0) {
                         return '<div class="layui-progress" lay-showPercent="yes" style="margin-top: 13px"> <div class="layui-progress-bar" lay-percent="0%"></div> </div>';
-                    } else if (d.status == 1) {
+                    } else if (d.status === 1) {
                         return '<div class="layui-progress" lay-showPercent="yes" style="margin-top: 13px"> <div class="layui-progress-bar layui-bg-orange" lay-percent="50%"></div> </div>';
-                    } else if (d.status == 2) {
-                        return '<div class="layui-progress" lay-showPercent="yes" style="margin-top: 13px"> <div class="layui-progress-bar layui-bg-green" lay-percent="100%"></div> </div>';
+                    } else if (d.status === 2) {
+                        return '<div class="layui-progress" lay-showPercent="yes" style="margin-top: 13px"> <div class="layui-progress-bar" lay-percent="100%"></div> </div>';
                     }
                 }
             },
             {
                 field: 'status', title: '状态', width: 110, align: 'center', templet: function (d) {
-                    if (d.status == 0) {
+                    if (d.status === 0) {
                         return '违规记录';
-                    } else if (d.status == 1) {
+                    } else if (d.status === 1) {
                         return '<input type="checkbox" lay-filter="status" lay-skin="switch" value=' + d.id + ' lay-text="已打款|待打款">';
-                    } else if (d.status == 2) {
+                    } else if (d.status === 2) {
                         return '<input type="checkbox" lay-filter="status" lay-skin="switch" value=' + d.id + ' lay-text="已打款|待打款" checked>';
                     }
                 }

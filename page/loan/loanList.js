@@ -51,14 +51,14 @@ layui.use(['form', 'layer', 'table', 'element'], function () {
             },
             {
                 field: 'houseType', title: '名下房产类型', minWidth: 130, align: 'center', templet: function (d) {
-                    if (d.houseType == '未填写') {
-                        return '未填写'
+                    if (d.houseType === '未填写' || d.status <= 1) {
+                        return d.houseType
                     } else {
                         return '<a lay-event="houseType" style="cursor:pointer;color: #01AAED">' + d.houseType + '</a>';
                     }
                     // switch (d.houseType) {
                     //     case '未填写':
-                    //         return '未填写';
+                    //         return d.houseType;
                     //     default:
                     //         return '<a lay-event="houseType" style="cursor:pointer;color: #01AAED">' + d.houseType + '</a>';
                     // }
@@ -66,14 +66,15 @@ layui.use(['form', 'layer', 'table', 'element'], function () {
             },
             {
                 field: 'carType', title: '名下车产类型', minWidth: 130, align: 'center', templet: function (d) {
-                    if (d.carType == '未填写') {
-                        return '未填写'
+                    if (d.carType === '未填写' || d.carType === '无车' || d.status <= 1) {
+                        return d.carType
                     } else {
                         return '<a lay-event="carType" style="cursor:pointer;color: #01AAED">' + d.carType + '</a>';
                     }
                     // switch (d.carType) {
                     //     case '未填写':
-                    //         return '未填写';
+                    //     case '无车':
+                    //         return d.carType;
                     //     default:
                     //         return '<a lay-event="carType" style="cursor:pointer;color: #01AAED">' + d.carType + '</a>';
                     // }
@@ -93,13 +94,13 @@ layui.use(['form', 'layer', 'table', 'element'], function () {
                 field: 'jd', title: '进度', minWidth: 200, align: 'center', templet: function (d) {
                     switch (d.status) {
                         case 0:
-                            return '<div class="layui-progress" lay-showPercent="yes" style="margin-top: 13px"> <div class="layui-progress-bar" lay-percent="0%"></div> </div>';
+                            return '<div class="layui-progress" lay-showPercent="yes" style="margin-top: 13px"> <div class="layui-progress-bar layui-bg-red" lay-percent="100%"></div> </div>';
                         case 1:
-                            return '<div class="layui-progress" lay-showPercent="yes" style="margin-top: 13px"> <div class="layui-progress-bar layui-bg-red" lay-percent="20%"></div> </div>';
+                            return '<div class="layui-progress" lay-showPercent="yes" style="margin-top: 13px"> <div class="layui-progress-bar layui-bg-gray" lay-percent="20%"></div> </div>';
                         case 2:
                             return '<div class="layui-progress" lay-showPercent="yes" style="margin-top: 13px"> <div class="layui-progress-bar layui-bg-orange" lay-percent="50%"></div> </div>';
                         case 3:
-                            return '<div class="layui-progress" lay-showPercent="yes" style="margin-top: 13px"> <div class="layui-progress-bar " lay-percent="80%"></div> </div>';
+                            return '<div class="layui-progress" lay-showPercent="yes" style="margin-top: 13px"> <div class="layui-progress-bar" lay-percent="100%"></div> </div>';
                         case 4:
                             return '<div class="layui-progress" lay-showPercent="yes" style="margin-top: 13px"> <div class="layui-progress-bar layui-bg-green" lay-percent="100%"></div> </div>';
                     }
@@ -109,7 +110,7 @@ layui.use(['form', 'layer', 'table', 'element'], function () {
                 field: 'status', title: '审核状态', width: 110, align: 'center', templet: function (d) {
                     switch (d.status) {
                         case 0:
-                            return '申请失败';
+                            return '<span style="color: red">审核不通过 </span>';
                         case 1:
                             return '凭证待上传';
                         case 2:
@@ -160,7 +161,7 @@ layui.use(['form', 'layer', 'table', 'element'], function () {
                 "status": data.elem.checked ? "3" : "2"
             }),
             success: function (result) {
-                if (result.httpStatus == 200) {
+                if (result.httpStatus === 200) {
                     layer.msg("状态修改成功");
                 } else {
                     layer.alert(result.exception, {icon: 7, anim: 6});
@@ -204,6 +205,12 @@ layui.use(['form', 'layer', 'table', 'element'], function () {
                         form.render();
                     }
                 });
+                layui.layer.full(index);
+                window.sessionStorage.setItem("index", index);
+                //改变窗口大小时，重置弹窗的宽高，防止超出可视区域（如F12调出debug的操作）
+                $(window).on("resize", function () {
+                    layui.layer.full(window.sessionStorage.getItem("index"));
+                });
                 break;
             case 'carType':
                 index = layui.layer.open({
@@ -218,6 +225,12 @@ layui.use(['form', 'layer', 'table', 'element'], function () {
                         body.find(".id").val(data.id);
                         form.render();
                     }
+                });
+                layui.layer.full(index);
+                window.sessionStorage.setItem("index", index);
+                //改变窗口大小时，重置弹窗的宽高，防止超出可视区域（如F12调出debug的操作）
+                $(window).on("resize", function () {
+                    layui.layer.full(window.sessionStorage.getItem("index"));
                 });
                 break;
         }
