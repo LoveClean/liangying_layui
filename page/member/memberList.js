@@ -33,7 +33,7 @@ layui.use(['form', 'layer', 'table'], function () {
         cols: [[
             {field: 'id', title: 'ID', width: 90, align: 'center'},
             {
-                field: 'username', title: '用户名', minWidth: 150, align: "center", templet: function (d) {
+                field: 'username', title: '姓名', minWidth: 150, align: "center", templet: function (d) {
                     return '<a lay-event="look" style="cursor:pointer;">' + d.username + '</a>';
                 }
             },
