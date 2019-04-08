@@ -19,7 +19,7 @@ layui.use(['form', 'layer', 'layedit'], function () {
             url: $.cookie("tempUrl") + "loan/selectInfoByPrimaryKey?token=" + $.cookie("token") + "&id=" + $(".id").val(),
             type: "GET",
             success: function (result) {
-                if (result.code == 0) {
+                if (result.code === 0) {
                     layedit.setContent(editIndex, '<img src="' + result.data.carFile.replace(/,/g, '" alt="车产证明文件"><img src="') + '" alt="车产证明文件">');
                 } else {
                     layer.msg(result.exception, {icon: 7, anim: 6});

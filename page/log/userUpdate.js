@@ -30,7 +30,7 @@ layui.use(['table'], function () {
             {field: 'id', title: 'ID', width: 90, align: "center"},
             {
                 field: 'method', title: '请求方式', width: 100, align: 'center', templet: function (d) {
-                    if (d.method.toUpperCase() == "GET") {
+                    if (d.method.toUpperCase() === "GET") {
                         return '<span class="layui-blue">' + d.method + '</span>'
                     } else {
                         return '<span class="layui-red">' + d.method + '</span>'
@@ -40,7 +40,7 @@ layui.use(['table'], function () {
             {field: 'requestUri', title: '请求URI', minWidth: 210, align: 'left'},
             {
                 field: 'exception', title: '是否异常', align: 'center', templet: function (d) {
-                    if (d.exception == "") {
+                    if (d.exception === "") {
                         return '<span class="layui-btn layui-btn-green layui-btn-xs">正常</span>'
                     } else {
                         return '<span class="layui-btn layui-btn-danger layui-btn-xs">' + d.exception + '</span>'

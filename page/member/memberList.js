@@ -114,7 +114,7 @@ layui.use(['form', 'layer', 'table'], function () {
                 "status": data.elem.checked ? "1" : "0"
             }),
             success: function (result) {
-                if (result.httpStatus == 200) {
+                if (result.httpStatus === 200) {
                     layer.msg("状态修改成功");
                 } else {
                     layer.alert(result.exception, {icon: 7, anim: 6});

@@ -33,8 +33,8 @@ layui.use(['form', 'layer', 'table'], function () {
         cols: [[
             {field: 'id', title: 'ID', width: 90, align: 'center'},
             {
-                field: 'title', title: '标题', minWidth: 200, align: "center", templet: function (d) {
-                    return '<a lay-event="edit" style="cursor:pointer;">' + d.title + '</a>';
+                field: 'title', title: '标题', minWidth: 200, align: "left", templet: function (d) {
+                    return '<a lay-event="edit" style="cursor:pointer;color: #01AAED">' + d.title + '</a>';
                 }
             },
             {field: 'introduction', title: '简介', minWidth: 300, align: 'left'},
@@ -111,7 +111,7 @@ layui.use(['form', 'layer', 'table'], function () {
                     "status": data.elem.checked ? "1" : "0"
                 }),
                 success: function (result) {
-                    if (result.httpStatus == 200) {
+                    if (result.httpStatus === 200) {
                         layer.msg("状态修改成功");
                     } else {
                         layer.alert(result.exception, {icon: 7, anim: 6});

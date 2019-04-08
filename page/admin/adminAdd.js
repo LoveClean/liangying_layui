@@ -36,7 +36,7 @@ layui.use(['form', 'layer'], function () {
             }),
             success: function (result) {
                 top.layer.close(index);
-                if (result.httpStatus == 200) {
+                if (result.httpStatus === 200) {
                     top.layer.msg("管理员添加成功！");
                     layer.closeAll("iframe");
                     //刷新父页面

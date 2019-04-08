@@ -74,7 +74,7 @@ layui.use(['form', 'layer', 'layedit', 'upload'], function () {
                 content: layedit.getContent(editIndex)
             }),
             success: function (result) {
-                if (result.code == 0) {
+                if (result.code === 0) {
                     layer.msg("新增成功");
                     setTimeout(function () {
                         top.layer.close(index);

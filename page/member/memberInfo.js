@@ -8,7 +8,7 @@ layui.use(['form', 'layer'], function () {
             url: $.cookie("tempUrl") + "user/selectInfoByPrimaryKey?token=" + $.cookie("token") + "&id=" + $(".id").val(),
             type: "GET",
             success: function (result) {
-                if (result.code == 0) {
+                if (result.code === 0) {
                     // console.log(result.data);
                     $(".id").val(result.data.id);
                     $(".username").val(result.data.username);
@@ -16,9 +16,9 @@ layui.use(['form', 'layer'], function () {
                     $(".idNumber").val(result.data.idNumber == null ? "未填写" : result.data.idNumber);
                     $(".userId").val(result.data.userId == null ? "无" : result.data.idNumber);
                     $(".inviteNumber").val(result.data.inviteNumber + "人");
-                    $(".earn").val("￥" + result.data.earn + "元");
-                    $(".balance").val("￥" + result.data.balance + "元");
-                    $(".status").val(result.data.status == 3 ? "是" : "否");
+                    $(".earn").val("￥" + result.data.earn);
+                    $(".balance").val("￥" + result.data.balance);
+                    $(".status").val(result.data.status === 3 ? "是" : "否");
                     let profession;
                     switch (result.data.profession) {
                         case 1:
@@ -35,10 +35,10 @@ layui.use(['form', 'layer'], function () {
                             break;
                     }
                     $(".profession").val(profession);
-                    $(".accumulationFund").val(result.data.accumulationFund == 1 ? "有" : "无");
-                    $(".socialSecurity").val(result.data.socialSecurity == 1 ? "有" : "无");
-                    $(".commercialInsurance").val(result.data.commercialInsurance == 1 ? "有" : "无");
-                    $(".credit").val(result.data.credit == 1 ? "有" : "无");
+                    $(".accumulationFund").val(result.data.accumulationFund === 1 ? "有" : "无");
+                    $(".socialSecurity").val(result.data.socialSecurity === 1 ? "有" : "无");
+                    $(".commercialInsurance").val(result.data.commercialInsurance === 1 ? "有" : "无");
+                    $(".credit").val(result.data.credit === 1 ? "有" : "无");
                     $(".bind").val(result.data.bind);
                     $(".loanOfficerFile").val(result.data.loanOfficerFile);
                     $(".createDate").val(result.data.createDate);

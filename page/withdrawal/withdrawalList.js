@@ -35,7 +35,7 @@ layui.use(['form', 'layer', 'table', 'element'], function () {
             {field: 'id', title: 'ID', width: 90, align: 'center'},
             {
                 field: 'username', title: '用户姓名', minWidth: 130, align: "center", templet: function (d) {
-                    if (d.username == null || d.username == "") {
+                    if (d.username == null || d.username === "") {
                         return '未填写';
                     } else {
                         return '<a lay-event="userId" style="cursor:pointer;color: #01AAED">' + d.username + '</a>';
@@ -49,7 +49,7 @@ layui.use(['form', 'layer', 'table', 'element'], function () {
             },
             {
                 field: 'createBy', title: '提现手机号', minWidth: 130, align: "center", templet: function (d) {
-                    if (d.createBy == null || d.createBy == "") {
+                    if (d.createBy == null || d.createBy === "") {
                         return '未填写';
                     } else {
                         return '<a lay-event="userId" style="cursor:pointer;">' + d.createBy + '</a>';
@@ -122,7 +122,7 @@ layui.use(['form', 'layer', 'table', 'element'], function () {
                 "status": data.elem.checked ? "2" : "1"
             }),
             success: function (result) {
-                if (result.httpStatus == 200) {
+                if (result.httpStatus === 200) {
                     layer.msg("状态修改成功");
                 } else {
                     layer.alert(result.exception, {icon: 7, anim: 6});
@@ -135,22 +135,20 @@ layui.use(['form', 'layer', 'table', 'element'], function () {
     table.on('tool(test)', function (obj) {
         const layEvent = obj.event,
             data = obj.data;
-        switch (layEvent) {
-            case 'userId':
-                const index = layui.layer.open({
-                    title: "用户详情",
-                    type: 2,
-                    maxmin: true, //开启最大化最小化按钮
-                    area: ["700px", "500px"],
-                    content: "../member/memberInfo.html",
-                    shadeClose: true,
-                    success: function (layero, index) {
-                        var body = layui.layer.getChildFrame('body', index);
-                        body.find(".id").val(data.userId);
-                        form.render();
-                    }
-                });
-                break;
+        if (layEvent === 'userId') {
+            const index = layui.layer.open({
+                title: "用户详情",
+                type: 2,
+                maxmin: true, //开启最大化最小化按钮
+                area: ["700px", "500px"],
+                content: "../member/memberInfo.html",
+                shadeClose: true,
+                success: function (layero, index) {
+                    var body = layui.layer.getChildFrame('body', index);
+                    body.find(".id").val(data.userId);
+                    form.render();
+                }
+            });
         }
     });
 });

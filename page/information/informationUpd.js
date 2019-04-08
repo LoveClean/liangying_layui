@@ -78,7 +78,7 @@ layui.use(['form', 'layer', 'layedit', 'upload'], function () {
                 content: layedit.getContent(editIndex)
             }),
             success: function (result) {
-                if (result.code == 0) {
+                if (result.code === 0) {
                     layer.msg("更新成功");
                     setTimeout(function () {
                         top.layer.close(index);
@@ -99,7 +99,7 @@ layui.use(['form', 'layer', 'layedit', 'upload'], function () {
             url: $.cookie("tempUrl") + "information/selectInfoByPrimaryKey?token=" + $.cookie("token") + "&id=" + $(".id").val(),
             type: "GET",
             success: function (result) {
-                if (result.code == 0) {
+                if (result.code === 0) {
                     layedit.setContent(editIndex, result.data.content);
                 } else {
                     layer.msg(result.exception, {icon: 7, anim: 6});
