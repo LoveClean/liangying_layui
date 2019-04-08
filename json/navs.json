@@ -81,7 +81,7 @@
           "spread": false
         },
         {
-          "title": "系统参数设置",
+          "title": "系统参数（预留）",
           "icon": "&#xe716;",
           "href": "",
           "spread": false
@@ -91,19 +91,19 @@
   ],
   "memberCenter": [
     {
-      "title": "用户管理",
+      "title": "用户管理（预留）",
       "icon": "&#xe770;",
       "href": "",
       "spread": false
     },
     {
-      "title": "订单管理",
+      "title": "订单管理（预留）",
       "icon": "&#xe770;",
       "href": "",
       "spread": false
     },
     {
-      "title": "资讯管理",
+      "title": "资讯管理（预留）",
       "icon": "&#xe60a;",
       "href": "",
       "spread": false
