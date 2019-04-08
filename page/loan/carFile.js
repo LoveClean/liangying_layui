@@ -6,7 +6,7 @@ layui.use(['form', 'layer', 'layedit'], function () {
 
     //创建一个编辑器
     const editIndex = layedit.build('content', {
-        height: 500,
+        height: 700,
         tool: []
     });
 
