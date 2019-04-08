@@ -45,9 +45,9 @@ layui.use(['form', 'layer', 'table'], function () {
             },
             {
                 field: 'status', title: '状态', width: 100, align: 'center', templet: function (d) {
-                    if (d.status == 1) {
+                    if (d.status === 1) {
                         return '<input type="checkbox" lay-filter="status" lay-skin="switch" value=' + d.id + ' lay-text="启用|禁用" checked>';
-                    } else if (d.status == 0) {
+                    } else if (d.status === 0) {
                         return '<input type="checkbox" lay-filter="status" lay-skin="switch" value=' + d.id + ' lay-text="启用|禁用" >';
                     }
                 }

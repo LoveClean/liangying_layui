@@ -1,13 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="40c75c65-909d-49df-b852-fcbf046f0599" name="默认" comment="更新声明为&lt;html lang=&quot;zh&quot;&gt;&#10;更新lay-verify，lay-filter，lay-submit不再提示警告">
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+    <list default="true" id="40c75c65-909d-49df-b852-fcbf046f0599" name="默认" comment="更新了显示进度条状态">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/page/loan/carFile.js" beforeDir="false" afterPath="$PROJECT_DIR$/page/loan/carFile.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/page/loan/houseFile.js" beforeDir="false" afterPath="$PROJECT_DIR$/page/loan/houseFile.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/page/loan/loanList.js" beforeDir="false" afterPath="$PROJECT_DIR$/page/loan/loanList.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/page/withdrawal/withdrawalList.js" beforeDir="false" afterPath="$PROJECT_DIR$/page/withdrawal/withdrawalList.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/page/information/informationList.js" beforeDir="false" afterPath="$PROJECT_DIR$/page/information/informationList.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -26,17 +22,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/login.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="190">
-              <caret line="10" column="57" lean-forward="true" selection-start-line="10" selection-start-column="57" selection-end-line="10" selection-end-column="57" />
+            <state relative-caret-position="456">
+              <caret line="24" column="44" lean-forward="true" selection-start-line="24" selection-start-column="44" selection-end-line="24" selection-end-column="44" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/page/loan/loanList.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1057">
-              <caret line="235" column="9" lean-forward="true" selection-start-line="235" selection-start-column="9" selection-end-line="235" selection-end-column="9" />
+            <state relative-caret-position="3686">
+              <caret line="194" column="41" selection-start-line="194" selection-start-column="41" selection-end-line="194" selection-end-column="41" />
               <folding>
                 <element signature="n#style#0;n#a#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#a#0;n#!!top" expanded="true" />
@@ -54,11 +50,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/page/information/informationList.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="171">
-              <caret line="75" column="52" selection-start-line="75" selection-start-column="52" selection-end-line="75" selection-end-column="52" />
+            <state relative-caret-position="874">
+              <caret line="46" column="45" lean-forward="true" selection-start-line="46" selection-start-column="45" selection-end-line="46" selection-end-column="45" />
               <folding>
                 <element signature="n#style#0;n#a#0;n#!!top" expanded="true" />
               </folding>
@@ -69,8 +65,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/page/loan/houseFile.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="418">
-              <caret line="22" column="149" lean-forward="true" selection-start-line="22" selection-start-column="50" selection-end-line="22" selection-end-column="149" />
+            <state relative-caret-position="285">
+              <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
             </state>
           </provider>
         </entry>
@@ -146,7 +142,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/layui/lay/modules/layedit.js" />
         <option value="$PROJECT_DIR$/page/log/admin.js" />
         <option value="$PROJECT_DIR$/page/log/sms.js" />
         <option value="$PROJECT_DIR$/page/log/user.js" />
@@ -162,7 +157,6 @@
         <option value="$PROJECT_DIR$/page/member/idcard.js" />
         <option value="$PROJECT_DIR$/css/public.css" />
         <option value="$PROJECT_DIR$/page/admin/adminList.js" />
-        <option value="$PROJECT_DIR$/page/information/informationList.js" />
         <option value="$PROJECT_DIR$/page/member/memberList.js" />
         <option value="$PROJECT_DIR$/js/login.js" />
         <option value="$PROJECT_DIR$/page/admin/adminList.html" />
@@ -191,12 +185,14 @@
         <option value="$PROJECT_DIR$/page/slideshow/slideshowUpd.html" />
         <option value="$PROJECT_DIR$/page/user/changePwd.html" />
         <option value="$PROJECT_DIR$/page/user/userInfo.html" />
-        <option value="$PROJECT_DIR$/login.html" />
         <option value="$PROJECT_DIR$/page/admin/adminAdd.html" />
         <option value="$PROJECT_DIR$/page/withdrawal/withdrawalList.js" />
         <option value="$PROJECT_DIR$/page/loan/houseFile.js" />
         <option value="$PROJECT_DIR$/page/loan/carFile.js" />
         <option value="$PROJECT_DIR$/page/loan/loanList.js" />
+        <option value="$PROJECT_DIR$/page/admin/adminAdd.js" />
+        <option value="$PROJECT_DIR$/login.html" />
+        <option value="$PROJECT_DIR$/page/information/informationList.js" />
       </list>
     </option>
   </component>
@@ -229,12 +225,6 @@
               <item name="liangying_layui" type="b2602c69:ProjectViewProjectNode" />
               <item name="liangying_layui" type="462c0819:PsiDirectoryNode" />
               <item name="page" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="liangying_layui" type="b2602c69:ProjectViewProjectNode" />
-              <item name="liangying_layui" type="462c0819:PsiDirectoryNode" />
-              <item name="page" type="462c0819:PsiDirectoryNode" />
-              <item name="information" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="liangying_layui" type="b2602c69:ProjectViewProjectNode" />
@@ -470,7 +460,7 @@
       <workItem from="1554192155563" duration="3260000" />
       <workItem from="1554253896438" duration="1306000" />
       <workItem from="1554358137798" duration="77000" />
-      <workItem from="1554686270203" duration="5934000" />
+      <workItem from="1554686270203" duration="6838000" />
     </task>
     <task id="LOCAL-00001" summary="第一版2019/04/02">
       <created>1554186366058</created>
@@ -500,11 +490,18 @@
       <option name="project" value="LOCAL" />
       <updated>1554194386760</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="更新声明为&lt;html lang=&quot;zh&quot;&gt;&#10;更新lay-verify，lay-filter，lay-submit不再提示警告">
+      <created>1554693654533</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1554693654534</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="937171000" />
+    <option name="totallyTimeSpent" value="938075000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
@@ -539,16 +536,10 @@
     </ignored-roots>
     <MESSAGE value="第一版2019/04/02" />
     <MESSAGE value="更新声明为&lt;html lang=&quot;zh&quot;&gt;&#10;更新lay-verify，lay-filter，lay-submit不再提示警告" />
-    <option name="LAST_COMMIT_MESSAGE" value="更新声明为&lt;html lang=&quot;zh&quot;&gt;&#10;更新lay-verify，lay-filter，lay-submit不再提示警告" />
+    <MESSAGE value="更新了显示进度条状态" />
+    <option name="LAST_COMMIT_MESSAGE" value="更新了显示进度条状态" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/page/user/user.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-790">
-          <caret line="1" column="18" lean-forward="true" selection-start-line="1" selection-start-column="18" selection-end-line="1" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/page/user/userInfo.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="540">
@@ -878,20 +869,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/login.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="10" column="57" lean-forward="true" selection-start-line="10" selection-start-column="57" selection-end-line="10" selection-end-column="57" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/page/loan/houseFile.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="22" column="149" lean-forward="true" selection-start-line="22" selection-start-column="50" selection-end-line="22" selection-end-column="149" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/page/loan/carFile.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="380">
@@ -899,20 +876,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/page/information/informationList.js">
+    <entry file="file://$PROJECT_DIR$/page/admin/adminAdd.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="75" column="52" selection-start-line="75" selection-start-column="52" selection-end-line="75" selection-end-column="52" />
-          <folding>
-            <element signature="n#style#0;n#a#0;n#!!top" expanded="true" />
-          </folding>
+        <state relative-caret-position="311">
+          <caret line="38" column="39" lean-forward="true" selection-start-line="38" selection-start-column="39" selection-end-line="38" selection-end-column="39" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/page/loan/loanList.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1057">
-          <caret line="235" column="9" lean-forward="true" selection-start-line="235" selection-start-column="9" selection-end-line="235" selection-end-column="9" />
+        <state relative-caret-position="3686">
+          <caret line="194" column="41" selection-start-line="194" selection-start-column="41" selection-end-line="194" selection-end-column="41" />
           <folding>
             <element signature="n#style#0;n#a#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#a#0;n#!!top" expanded="true" />
@@ -925,6 +899,30 @@
             <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#span#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#span#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/login.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="456">
+          <caret line="24" column="44" lean-forward="true" selection-start-line="24" selection-start-column="44" selection-end-line="24" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/page/loan/houseFile.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/page/information/informationList.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="874">
+          <caret line="46" column="45" lean-forward="true" selection-start-line="46" selection-start-column="45" selection-end-line="46" selection-end-column="45" />
+          <folding>
+            <element signature="n#style#0;n#a#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
