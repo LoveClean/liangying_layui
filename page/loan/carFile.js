@@ -20,7 +20,12 @@ layui.use(['form', 'layer', 'layedit'], function () {
             type: "GET",
             success: function (result) {
                 if (result.code === 0) {
-                    layedit.setContent(editIndex, '<img src="' + result.data.carFile.replace(/,/g, '" alt="车产证明文件"><img src="') + '" alt="车产证明文件">');
+                    carFile = result.data.carFile;
+                    if (carFile == null || carFile === "") {
+                        layer.msg("未上传车产证明文件");
+                    } else {
+                        layedit.setContent(editIndex, '<img src="' + carFile.replace(/,/g, '" alt="车产证明文件"><hr><img src="') + '" alt="车产证明文件">');
+                    }
                 } else {
                     layer.msg(result.exception, {icon: 7, anim: 6});
                 }

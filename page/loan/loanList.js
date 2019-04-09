@@ -205,12 +205,12 @@ layui.use(['form', 'layer', 'table', 'element'], function () {
                         form.render();
                     }
                 });
-                layui.layer.full(index);
-                window.sessionStorage.setItem("index", index);
-                //改变窗口大小时，重置弹窗的宽高，防止超出可视区域（如F12调出debug的操作）
-                $(window).on("resize", function () {
-                    layui.layer.full(window.sessionStorage.getItem("index"));
-                });
+                // layui.layer.full(index);
+                // window.sessionStorage.setItem("index", index);
+                // //改变窗口大小时，重置弹窗的宽高，防止超出可视区域（如F12调出debug的操作）
+                // $(window).on("resize", function () {
+                //     layui.layer.full(window.sessionStorage.getItem("index"));
+                // });
                 break;
             case 'carType':
                 index = layui.layer.open({
@@ -226,12 +226,12 @@ layui.use(['form', 'layer', 'table', 'element'], function () {
                         form.render();
                     }
                 });
-                layui.layer.full(index);
-                window.sessionStorage.setItem("index", index);
-                //改变窗口大小时，重置弹窗的宽高，防止超出可视区域（如F12调出debug的操作）
-                $(window).on("resize", function () {
-                    layui.layer.full(window.sessionStorage.getItem("index"));
-                });
+                // layui.layer.full(index);
+                // window.sessionStorage.setItem("index", index);
+                // //改变窗口大小时，重置弹窗的宽高，防止超出可视区域（如F12调出debug的操作）
+                // $(window).on("resize", function () {
+                //     layui.layer.full(window.sessionStorage.getItem("index"));
+                // });
                 break;
         }
     });

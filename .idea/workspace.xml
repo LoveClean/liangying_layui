@@ -1,8 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="40c75c65-909d-49df-b852-fcbf046f0599" name="默认" comment="更新了‘身份证未上传’提示">
+    <list default="true" id="40c75c65-909d-49df-b852-fcbf046f0599" name="默认" comment="更新列表‘用户名’为‘姓名’">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/page/loan/carFile.js" beforeDir="false" afterPath="$PROJECT_DIR$/page/loan/carFile.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/page/loan/houseFile.js" beforeDir="false" afterPath="$PROJECT_DIR$/page/loan/houseFile.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/page/loan/loanList.js" beforeDir="false" afterPath="$PROJECT_DIR$/page/loan/loanList.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -18,11 +21,50 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/login.html">
           <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="323">
+              <caret line="17" column="87" lean-forward="true" selection-start-line="17" selection-start-column="87" selection-end-line="17" selection-end-column="87" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/page/loan/loanList.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="102">
+              <caret line="198" column="41" selection-start-line="198" selection-start-column="41" selection-end-line="198" selection-end-column="41" />
+              <folding>
+                <element signature="n#style#0;n#a#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#a#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#a#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#a#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#span#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/page/loan/carFile.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="152">
+              <caret line="8" column="20" lean-forward="true" selection-start-line="8" selection-start-column="20" selection-end-line="8" selection-end-column="20" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/page/loan/houseFile.js">
+          <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="190">
-              <caret line="10" column="57" lean-forward="true" selection-start-line="10" selection-start-column="57" selection-end-line="10" selection-end-column="57" />
+              <caret line="10" column="7" lean-forward="true" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="7" />
             </state>
           </provider>
         </entry>
@@ -116,7 +158,6 @@
         <option value="$PROJECT_DIR$/page/user/changePwd.html" />
         <option value="$PROJECT_DIR$/page/user/userInfo.html" />
         <option value="$PROJECT_DIR$/page/admin/adminAdd.html" />
-        <option value="$PROJECT_DIR$/page/loan/loanList.js" />
         <option value="$PROJECT_DIR$/login.html" />
         <option value="$PROJECT_DIR$/page/admin/adminAdd.js" />
         <option value="$PROJECT_DIR$/page/admin/adminList.js" />
@@ -128,18 +169,19 @@
         <option value="$PROJECT_DIR$/page/log/user.js" />
         <option value="$PROJECT_DIR$/page/log/userLogin.js" />
         <option value="$PROJECT_DIR$/page/log/userUpdate.js" />
-        <option value="$PROJECT_DIR$/page/member/memberList.js" />
         <option value="$PROJECT_DIR$/page/slideshow/slideshowAdd.js" />
         <option value="$PROJECT_DIR$/page/slideshow/slideshowUpd.js" />
         <option value="$PROJECT_DIR$/page/user/user.js" />
         <option value="$PROJECT_DIR$/page/user/userInfo.js" />
         <option value="$PROJECT_DIR$/page/withdrawal/withdrawalList.js" />
         <option value="$PROJECT_DIR$/page/member/memberInfo.js" />
-        <option value="$PROJECT_DIR$/page/loan/carFile.js" />
-        <option value="$PROJECT_DIR$/page/loan/houseFile.js" />
         <option value="$PROJECT_DIR$/json/navs.json" />
         <option value="$PROJECT_DIR$/page/member/idcard.js" />
         <option value="$PROJECT_DIR$/css/public.css" />
+        <option value="$PROJECT_DIR$/page/member/memberList.js" />
+        <option value="$PROJECT_DIR$/page/loan/carFile.js" />
+        <option value="$PROJECT_DIR$/page/loan/houseFile.js" />
+        <option value="$PROJECT_DIR$/page/loan/loanList.js" />
       </list>
     </option>
   </component>
@@ -172,6 +214,12 @@
               <item name="liangying_layui" type="b2602c69:ProjectViewProjectNode" />
               <item name="liangying_layui" type="462c0819:PsiDirectoryNode" />
               <item name="page" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="liangying_layui" type="b2602c69:ProjectViewProjectNode" />
+              <item name="liangying_layui" type="462c0819:PsiDirectoryNode" />
+              <item name="page" type="462c0819:PsiDirectoryNode" />
+              <item name="loan" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -403,7 +451,8 @@
       <workItem from="1554253896438" duration="1306000" />
       <workItem from="1554358137798" duration="77000" />
       <workItem from="1554686270203" duration="11302000" />
-      <workItem from="1554710330314" duration="727000" />
+      <workItem from="1554710330314" duration="1597000" />
+      <workItem from="1554771443879" duration="2803000" />
     </task>
     <task id="LOCAL-00001" summary="第一版2019/04/02">
       <created>1554186366058</created>
@@ -475,11 +524,18 @@
       <option name="project" value="LOCAL" />
       <updated>1554711008189</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="更新列表‘用户名’为‘姓名’">
+      <created>1554711193270</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1554711193270</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="943266000" />
+    <option name="totallyTimeSpent" value="946939000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
@@ -559,7 +615,8 @@
     <MESSAGE value="更新容器高度为700" />
     <MESSAGE value="更新了注释" />
     <MESSAGE value="更新了‘身份证未上传’提示" />
-    <option name="LAST_COMMIT_MESSAGE" value="更新了‘身份证未上传’提示" />
+    <MESSAGE value="更新列表‘用户名’为‘姓名’" />
+    <option name="LAST_COMMIT_MESSAGE" value="更新列表‘用户名’为‘姓名’" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/page/information/informationList.html">
@@ -716,16 +773,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/page/admin/adminList.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="292">
-          <caret line="109" column="14" selection-start-line="109" selection-start-column="14" selection-end-line="109" selection-end-column="14" />
-          <folding>
-            <element signature="n#style#0;n#a#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/page/information/informationAdd.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="342">
@@ -743,13 +790,6 @@
           <folding>
             <element signature="n#style#0;n#span#0;n#!!top" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/page/log/admin.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="42" column="37" selection-start-line="42" selection-start-column="37" selection-end-line="42" selection-end-column="37" />
         </state>
       </provider>
     </entry>
@@ -785,16 +825,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="311">
           <caret line="117" column="21" lean-forward="true" selection-start-line="117" selection-start-column="21" selection-end-line="117" selection-end-column="21" />
-          <folding>
-            <element signature="n#style#0;n#a#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/page/loan/loanList.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2268">
-          <caret line="42" column="95" lean-forward="true" selection-start-line="42" selection-start-column="79" selection-end-line="42" selection-end-column="95" />
           <folding>
             <element signature="n#style#0;n#a#0;n#!!top" expanded="true" />
           </folding>
@@ -871,22 +901,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/page/loan/carFile.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="532">
-          <caret line="28" column="8" lean-forward="true" selection-start-line="28" selection-start-column="8" selection-end-line="28" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/layui/layui.all.js">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/page/loan/houseFile.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
-          <caret line="20" column="40" lean-forward="true" selection-start-line="20" selection-start-column="40" selection-end-line="20" selection-end-column="40" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/json/navs.json">
       <provider selected="true" editor-type-id="text-editor">
@@ -904,17 +920,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/layui/layui.js">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/page/member/memberList.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="399">
-          <caret line="55" column="105" lean-forward="true" selection-start-line="55" selection-start-column="105" selection-end-line="55" selection-end-column="105" />
-          <folding>
-            <element signature="n#style#0;n#a#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#a#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/css/public.css">
       <provider selected="true" editor-type-id="text-editor">
@@ -937,10 +942,71 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/login.html">
+    <entry file="file://$PROJECT_DIR$/page/member/memberList.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="836">
+          <caret line="44" column="28" lean-forward="true" selection-start-line="44" selection-start-column="28" selection-end-line="44" selection-end-column="28" />
+          <folding>
+            <element signature="n#style#0;n#a#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/page/admin/adminList.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2071">
+          <caret line="109" column="14" selection-start-line="109" selection-start-column="14" selection-end-line="109" selection-end-column="14" />
+          <folding>
+            <element signature="n#style#0;n#a#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/page/log/admin.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="798">
+          <caret line="42" column="37" selection-start-line="42" selection-start-column="37" selection-end-line="42" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/page/loan/carFile.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="8" column="20" lean-forward="true" selection-start-line="8" selection-start-column="20" selection-end-line="8" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/page/loan/houseFile.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="190">
-          <caret line="10" column="57" lean-forward="true" selection-start-line="10" selection-start-column="57" selection-end-line="10" selection-end-column="57" />
+          <caret line="10" column="7" lean-forward="true" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/login.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="17" column="87" lean-forward="true" selection-start-line="17" selection-start-column="87" selection-end-line="17" selection-end-column="87" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/page/loan/loanList.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="198" column="41" selection-start-line="198" selection-start-column="41" selection-end-line="198" selection-end-column="41" />
+          <folding>
+            <element signature="n#style#0;n#a#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
