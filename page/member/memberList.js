@@ -171,10 +171,11 @@ layui.use(['form', 'layer', 'table'], function () {
                         type: "DELETE",
                         success: function (result) {
                             layer.msg("删除成功");
-                            window.location.href = "memberList.html";
+                            // window.location.href = "memberList.html";
                         }
                     });
-                    tableIns.reload();
+                    obj.del(); //删除对应行（tr）的DOM结构，并更新缓存
+                    // tableIns.reload();
                     layer.close(index);
                 });
                 break;
