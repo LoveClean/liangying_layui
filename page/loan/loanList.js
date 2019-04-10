@@ -26,7 +26,7 @@ layui.use(['form', 'layer', 'table', 'element'], function () {
         cellMinWidth: 95,
         page: true,
         height: "full-25",
-        limits: [5, 15, 15, 20, 25],
+        limits: [5, 10, 15, 20, 25],
         limit: 15,
         id: "dataTable",
         toolbar: '#toolbarDemo',
