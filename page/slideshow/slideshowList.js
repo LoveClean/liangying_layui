@@ -138,7 +138,7 @@ layui.config({
                     form.render();
                     layer.close(index);
                     layer.msg("删除成功");
-                }, 1500);
+                }, 500);
             })
         } else {
             layer.msg("请选择需要删除的图片");
