@@ -1,6 +1,5 @@
-layui.use(['form', 'layer'], function () {
-    const form = layui.form,
-        layer = parent.layer === undefined ? layui.layer : top.layer,
+layui.use(['layer'], function () {
+    const layer = parent.layer === undefined ? layui.layer : top.layer,
         $ = layui.jquery;
 
     setTimeout(function () {

@@ -1,6 +1,5 @@
-layui.use(['form', 'layer', 'layedit'], function () {
-    const form = layui.form,
-        layer = parent.layer === undefined ? layui.layer : top.layer,
+layui.use(['layer', 'layedit'], function () {
+    const layer = parent.layer === undefined ? layui.layer : top.layer,
         layedit = layui.layedit,
         $ = layui.jquery;
 
