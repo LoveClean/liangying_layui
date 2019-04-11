@@ -1,5 +1,5 @@
 {
-  "contentManagement": [
+  "navs1": [
     {
       "title": "用户管理",
       "icon": "&#xe770;",
@@ -13,13 +13,13 @@
       "spread": false
     },
     {
-      "title": "贷款记录管理",
+      "title": "贷款记录",
       "icon": "&#xe62c;",
       "href": "page/loan/loanList.html",
       "spread": false
     },
     {
-      "title": "提现流水管理",
+      "title": "提现流水",
       "icon": "&#xe63c;",
       "href": "page/withdrawal/withdrawalList.html",
       "spread": false
@@ -89,7 +89,7 @@
       ]
     }
   ],
-  "memberCenter": [
+  "navs2": [
     {
       "title": "用户管理（预留）",
       "icon": "&#xe770;",
