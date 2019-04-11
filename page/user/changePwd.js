@@ -1,10 +1,7 @@
-layui.use(['form', 'layer', 'laydate', 'table', 'laytpl'], function () {
+layui.use(['form', 'layer'], function () {
     const form = layui.form,
         layer = parent.layer === undefined ? layui.layer : top.layer,
-        $ = layui.jquery,
-        laydate = layui.laydate,
-        laytpl = layui.laytpl,
-        table = layui.table;
+        $ = layui.jquery;
 
     $(".truename").attr("value", $.cookie("truename"));
 
@@ -54,13 +51,13 @@ layui.use(['form', 'layer', 'laydate', 'table', 'laytpl'], function () {
                                     }
                                 }
                             });
-                        }, 1000);
+                        }, 500);
                     } else {
                         layer.alert(result.exception, {icon: 7, anim: 6});
                     }
                 }
             });
-        }, 1000);
+        }, 500);
         return false; //阻止表单跳转。如果需要表单跳转，去掉这段即可。
     });
 

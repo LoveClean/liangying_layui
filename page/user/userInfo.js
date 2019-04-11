@@ -2,12 +2,10 @@ var form, $, areaData;
 layui.config({
     base: "../../js/"
 });
-layui.use(['form', 'layer', 'upload', 'laydate'], function () {
-    form = layui.form;
-    $ = layui.jquery;
-    const layer = parent.layer === undefined ? layui.layer : top.layer,
-        upload = layui.upload,
-        laydate = layui.laydate;
+layui.use(['form', 'layer'], function () {
+    const form = layui.form,
+        $ = layui.jquery,
+        layer = parent.layer === undefined ? layui.layer : top.layer;
 
     $(function () {
         $.ajax({
@@ -41,7 +39,7 @@ layui.use(['form', 'layer', 'upload', 'laydate'], function () {
                         //跳转至登陆界面
                         $.cookie('token', "", {path: '/'});
                         parent.location.href = "../../login.html";
-                    }, 1000);
+                    }, 500);
                 } else {
                     layer.alert(result.exception, {icon: 7, anim: 6});
                 }

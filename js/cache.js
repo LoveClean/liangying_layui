@@ -104,6 +104,7 @@ layui.use(['form', 'jquery', "layer"], function () {
             title: "功能设定",
             area: ["380px", "230px"],
             type: "1",
+            shadeClose: true,
             content: '<div class="functionSrtting_box">' +
                 '<form class="layui-form">' +
                 '<div class="layui-form-item">' +
@@ -187,6 +188,7 @@ layui.use(['form', 'jquery', "layer"], function () {
             title: "更换皮肤",
             area: ["310px", "200px"],
             type: "1",
+            shadeClose: true,
             content: '<div class="skins_box">' +
                 '<form class="layui-form">' +
                 '<div class="layui-form-item">' +
@@ -286,16 +288,9 @@ layui.use(['form', 'jquery', "layer"], function () {
         var index = layui.layer.open({
             title: "个人资料",
             type: 2,
-            area: ["550px", "450px"],
+            area: ["550px", "380px"],
             content: "page/user/userInfo.html",
-            success: function (layero, index) {
-                var body = layui.layer.getChildFrame('body', index);
-                setTimeout(function () {
-                    layui.layer.tips('点击此处关闭', '.layui-layer-setwin .layui-layer-close', {
-                        tips: 3
-                    });
-                }, 500)
-            }
+            shadeClose: true
         })
     });
 
@@ -304,16 +299,9 @@ layui.use(['form', 'jquery', "layer"], function () {
         var index = layui.layer.open({
             title: "修改密码",
             type: 2,
-            area: ["550px", "450px"],
+            area: ["550px", "390px"],
             content: "page/user/changePwd.html",
-            success: function (layero, index) {
-                var body = layui.layer.getChildFrame('body', index);
-                setTimeout(function () {
-                    layui.layer.tips('点击此处关闭', '.layui-layer-setwin .layui-layer-close', {
-                        tips: 3
-                    });
-                }, 500)
-            }
+            shadeClose: true
         })
     });
 });
