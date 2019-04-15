@@ -110,15 +110,15 @@ layui.use(['form', 'layer', 'table', 'element'], function () {
                 field: 'status', title: '审核状态', width: 110, align: 'center', templet: function (d) {
                     switch (d.status) {
                         case 0:
-                            return '<span style="color: red">审核不通过 </span>';
+                            return '<span class="layui-btn layui-btn-danger layui-btn-xs">不通过</span>';
                         case 1:
-                            return '凭证待上传';
+                            return '<span class="layui-btn layui-btn-disabled layui-btn-xs">待上传</span>';
                         case 2:
-                            return '<input type="checkbox" lay-filter="status" lay-skin="switch" value=' + d.id + ' lay-text="已通过|审核中">';
+                            return '<span class="layui-btn layui-btn-warm layui-btn-xs" lay-event="status2">审核中</span>';
                         case 3:
-                            return '<input type="checkbox" lay-filter="status" lay-skin="switch" value=' + d.id + ' lay-text="已通过|审核中" checked>';
+                            return '<span class="layui-btn layui-btn-xs" lay-event="status3">已通过</span>';
                         case 4:
-                            return '资金已到账';
+                            return '<span class="layui-btn layui-btn-xs">已到账</span>';
                     }
                 }
             }
@@ -147,35 +147,38 @@ layui.use(['form', 'layer', 'table', 'element'], function () {
         }
     });
 
-    // 修改状态开关
-    form.on('switch(status)', function (data) {
-        // console.log(data.elem.checked); //开关是否开启，true或者false
-        // console.log(data.value); //开关value值，也可以通过data.elem.value得到
-        $.ajax({
-            url: $.cookie("tempUrl") + "loan/updateByStatus?token=" + $.cookie("token"),
-            type: "PUT",
-            datatype: "application/json",
-            contentType: "application/json;charset=utf-8",
-            data: JSON.stringify({
-                "id": data.value,
-                "status": data.elem.checked ? "3" : "2"
-            }),
-            success: function (result) {
-                if (result.httpStatus === 200) {
-                    layer.msg("状态修改成功");
-                } else {
-                    layer.alert(result.exception, {icon: 7, anim: 6});
-                }
-            }
-        });
-    });
-
     //列表操作
     table.on('tool(test)', function (obj) {
         const layEvent = obj.event,
             data = obj.data;
         let index;
         switch (layEvent) {
+            case 'status2':
+                layer.confirm('确定通过审核？？', {icon: 3, title: '重要提示（不可更改）'}, function (index) {
+                    $.ajax({
+                        url: $.cookie("tempUrl") + "loan/updateByStatus?token=" + $.cookie("token"),
+                        type: "PUT",
+                        datatype: "application/json",
+                        contentType: "application/json;charset=utf-8",
+                        data: JSON.stringify({
+                            "id": data.id,
+                            "status": data.status === 2 ? "3" : "2"
+                        }),
+                        success: function (result) {
+                            if (result.httpStatus === 200) {
+                                layer.msg("状态修改成功");
+                                window.location.href = "loanList.html";
+                            } else {
+                                layer.alert(result.exception, {icon: 7, anim: 6});
+                            }
+                        }
+                    });
+                    layer.close(index);
+                });
+                break;
+            case 'status3':
+                layer.msg("已通过的无法被更改哦！");
+                break;
             case 'userId':
                 index = layui.layer.open({
                     title: "用户详情",

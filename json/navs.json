@@ -19,12 +19,6 @@
       "spread": false
     },
     {
-      "title": "提现流水",
-      "icon": "&#xe63c;",
-      "href": "page/withdrawal/withdrawalList.html",
-      "spread": false
-    },
-    {
       "title": "轮播图管理",
       "icon": "&#xe634;",
       "href": "page/slideshow/slideshowList.html",
@@ -81,9 +75,9 @@
           "spread": false
         },
         {
-          "title": "系统参数（预留）",
+          "title": "系统参数",
           "icon": "&#xe716;",
-          "href": "",
+          "href": "page/system/parameterList.html",
           "spread": false
         }
       ]
