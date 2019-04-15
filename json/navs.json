@@ -31,33 +31,15 @@
       "spread": false,
       "children": [
         {
-          "title": "管理员操作日志",
+          "title": "管理员操作记录",
           "icon": "&#xe66b;",
           "href": "page/log/admin.html",
           "spread": false
         },
         {
-          "title": "用户操作日志",
+          "title": "用户收益流水",
           "icon": "&#xe66b;",
-          "href": "page/log/user.html",
-          "spread": false
-        },
-        {
-          "title": "用户登录日志",
-          "icon": "&#xe66b;",
-          "href": "page/log/userLogin.html",
-          "spread": false
-        },
-        {
-          "title": "用户更新日志",
-          "icon": "&#xe66b;",
-          "href": "page/log/userUpdate.html",
-          "spread": false
-        },
-        {
-          "title": "短信操作日志",
-          "icon": "&#xe66b;",
-          "href": "page/log/sms.html",
+          "href": "page/log/earn.html",
           "spread": false
         }
       ]
