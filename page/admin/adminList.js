@@ -2,7 +2,6 @@ layui.use(['form', 'layer', 'table'], function () {
     const form = layui.form,
         layer = parent.layer === undefined ? layui.layer : top.layer,
         $ = layui.jquery,
-        util = layui.util,
         table = layui.table;
 
     //验证权限
@@ -52,7 +51,7 @@ layui.use(['form', 'layer', 'table'], function () {
             {field: 'phone', title: '手机号', align: 'center'},
             {
                 field: 'createDate', title: '创建时间', minWidth: 200, align: "center", templet: function (d) {
-                    return util.toDateString(d.createDate);
+                    return d.createDate;
                 }
             },
             {

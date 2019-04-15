@@ -1,10 +1,9 @@
 layui.config({
     base: "../../js/"
-}).use(['flow', 'form', 'layer', 'upload'], function () {
+}).use(['flow', 'form', 'layer'], function () {
     const flow = layui.flow,
         form = layui.form,
         layer = parent.layer === undefined ? layui.layer : top.layer,
-        upload = layui.upload,
         $ = layui.jquery;
 
     //流加载图片

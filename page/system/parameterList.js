@@ -2,7 +2,6 @@ layui.use(['form', 'layer', 'table'], function () {
     const form = layui.form,
         layer = parent.layer === undefined ? layui.layer : top.layer,
         $ = layui.jquery,
-        util = layui.util,
         table = layui.table;
 
     //列表

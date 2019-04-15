@@ -2,7 +2,6 @@ layui.use(['form', 'layer', 'table'], function () {
     const form = layui.form,
         layer = parent.layer === undefined ? layui.layer : top.layer,
         $ = layui.jquery,
-        util = layui.util,
         table = layui.table;
 
     //列表
@@ -40,7 +39,7 @@ layui.use(['form', 'layer', 'table'], function () {
             {field: 'introduction', title: '简介', minWidth: 300, align: 'left'},
             {
                 field: 'createDate', title: '创建时间', width: 200, align: "center", templet: function (d) {
-                    return util.toDateString(d.createDate);
+                    return d.createDate;
                 }
             },
             {
@@ -138,7 +137,7 @@ layui.use(['form', 'layer', 'table'], function () {
                             body.find(".articleTitle").val(data.title);  //文章标题
                             body.find(".introduction").val(data.introduction);  //文章简介
                             // body.find('.category').siblings("div.layui-form-select").find('dl').find('dd[lay-value=' + data.category + ']').click();  //文章分类
-                            body.find(".createDate").val(util.toDateString(data.createDate));
+                            body.find(".createDate").val(data.createDate);
                             form.render();
                             setTimeout(function () {
                                 layui.layer.tips('点击此处关闭', '.layui-layer-setwin .layui-layer-close', {

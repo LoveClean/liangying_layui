@@ -2,7 +2,6 @@ layui.use(['form', 'layer', 'table', 'element'], function () {
     const form = layui.form,
         layer = parent.layer === undefined ? layui.layer : top.layer,
         $ = layui.jquery,
-        util = layui.util,
         element = layui.element,
         table = layui.table;
 
@@ -46,7 +45,7 @@ layui.use(['form', 'layer', 'table', 'element'], function () {
             },
             {
                 field: 'money', title: '贷款金额', minWidth: 130, align: "center", templet: function (d) {
-                    return '<a lay-event="money" style="cursor:pointer;">￥' + d.money + '</a>';
+                    return '<a lay-event="money" style="cursor:pointer;">￥' + d.money / 10000 + '万</a>';
                 }
             },
             {
@@ -87,7 +86,7 @@ layui.use(['form', 'layer', 'table', 'element'], function () {
             },
             {
                 field: 'createDate', title: '创建时间', minWidth: 170, align: "center", templet: function (d) {
-                    return util.toDateString(d.createDate);
+                    return d.createDate;
                 }
             },
             {

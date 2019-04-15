@@ -1,6 +1,5 @@
-layui.use(['layer', 'util'], function () {
+layui.use(['layer'], function () {
     const layer = parent.layer === undefined ? layui.layer : top.layer,
-        util = layui.util,
         $ = layui.jquery;
 
     setTimeout(function () {
@@ -41,7 +40,7 @@ layui.use(['layer', 'util'], function () {
                     $(".credit").val(result.data.credit === 1 ? "有" : "无");
                     $(".bind").val(result.data.bind);
                     $(".loanOfficerFile").val(result.data.loanOfficerFile);
-                    $(".createDate").val(util.toDateString(result.data.createDate));
+                    $(".createDate").val(result.data.createDate);
                     $(".id_front").attr("src", result.data.idFront);  //身份证
                     $(".id_back").attr("src", result.data.idBack);  //身份证
                 } else {

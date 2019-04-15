@@ -1,8 +1,7 @@
-layui.use(['form', 'layer', 'util', 'table'], function () {
+layui.use(['form', 'layer', 'table'], function () {
     const form = layui.form,
         layer = parent.layer === undefined ? layui.layer : top.layer,
         $ = layui.jquery,
-        util = layui.util,
         table = layui.table;
 
     //列表
@@ -59,7 +58,7 @@ layui.use(['form', 'layer', 'util', 'table'], function () {
             },
             {
                 field: 'createDate', title: '注册时间', minWidth: 200, align: "center", templet: function (d) {
-                    return util.toDateString(d.createDate);
+                    return d.createDate;
                 }
             },
             {

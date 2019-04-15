@@ -1,6 +1,5 @@
 layui.use(['table'], function () {
     const table = layui.table,
-        util = layui.util,
         $ = layui.jquery;
 
     //系统日志
@@ -51,7 +50,7 @@ layui.use(['table'], function () {
             {field: 'createBy', title: '操作人', minWidth: 100, align: "center"},
             {
                 field: 'createDate', title: '操作时间', minWidth: 200, align: "center", templet: function (d) {
-                    return util.toDateString(d.createDate);
+                    return d.createDate;
                 }
             }
         ]]
