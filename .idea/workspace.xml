@@ -1,22 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="40c75c65-909d-49df-b852-fcbf046f0599" name="默认" comment="ui优化">
+    <list default="true" id="40c75c65-909d-49df-b852-fcbf046f0599" name="默认" comment="代码优化">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/js/login.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/login.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/page/admin/adminList.js" beforeDir="false" afterPath="$PROJECT_DIR$/page/admin/adminList.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/page/information/informationList.js" beforeDir="false" afterPath="$PROJECT_DIR$/page/information/informationList.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/page/loan/loanList.js" beforeDir="false" afterPath="$PROJECT_DIR$/page/loan/loanList.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/page/log/admin.js" beforeDir="false" afterPath="$PROJECT_DIR$/page/log/admin.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/page/log/sms.js" beforeDir="false" afterPath="$PROJECT_DIR$/page/log/sms.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/page/log/user.js" beforeDir="false" afterPath="$PROJECT_DIR$/page/log/user.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/page/log/userLogin.js" beforeDir="false" afterPath="$PROJECT_DIR$/page/log/userLogin.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/page/log/userUpdate.js" beforeDir="false" afterPath="$PROJECT_DIR$/page/log/userUpdate.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/page/member/memberInfo.js" beforeDir="false" afterPath="$PROJECT_DIR$/page/member/memberInfo.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/page/member/memberList.js" beforeDir="false" afterPath="$PROJECT_DIR$/page/member/memberList.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/page/slideshow/slideshowList.js" beforeDir="false" afterPath="$PROJECT_DIR$/page/slideshow/slideshowList.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/page/system/parameterList.js" beforeDir="false" afterPath="$PROJECT_DIR$/page/system/parameterList.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/page/withdrawal/withdrawalList.js" beforeDir="false" afterPath="$PROJECT_DIR$/page/withdrawal/withdrawalList.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -42,26 +29,6 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/page/loan/loanList.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="257">
-              <caret line="43" column="17" selection-start-line="43" selection-start-column="17" selection-end-line="43" selection-end-column="17" />
-              <folding>
-                <element signature="n#style#0;n#a#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#a#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#a#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#a#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/js/login.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="152">
@@ -172,7 +139,6 @@
         <option value="$PROJECT_DIR$/js/main.js" />
         <option value="$PROJECT_DIR$/page/main.html" />
         <option value="$PROJECT_DIR$/page/member/memberList.html" />
-        <option value="$PROJECT_DIR$/js/login.js" />
         <option value="$PROJECT_DIR$/page/admin/adminList.js" />
         <option value="$PROJECT_DIR$/page/information/informationList.js" />
         <option value="$PROJECT_DIR$/page/log/admin.js" />
@@ -186,6 +152,7 @@
         <option value="$PROJECT_DIR$/page/system/parameterList.js" />
         <option value="$PROJECT_DIR$/page/withdrawal/withdrawalList.js" />
         <option value="$PROJECT_DIR$/page/loan/loanList.js" />
+        <option value="$PROJECT_DIR$/js/login.js" />
       </list>
     </option>
   </component>
@@ -220,12 +187,6 @@
               <item name="liangying_layui" type="b2602c69:ProjectViewProjectNode" />
               <item name="liangying_layui" type="462c0819:PsiDirectoryNode" />
               <item name="page" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="liangying_layui" type="b2602c69:ProjectViewProjectNode" />
-              <item name="liangying_layui" type="462c0819:PsiDirectoryNode" />
-              <item name="page" type="462c0819:PsiDirectoryNode" />
-              <item name="loan" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -470,7 +431,7 @@
       <workItem from="1555031875647" duration="6528000" />
       <workItem from="1555292747837" duration="6294000" />
       <workItem from="1555303054716" duration="63000" />
-      <workItem from="1555307295139" duration="3148000" />
+      <workItem from="1555307295139" duration="3421000" />
     </task>
     <task id="LOCAL-00001" summary="第一版2019/04/02">
       <created>1554186366058</created>
@@ -647,11 +608,18 @@
       <option name="project" value="LOCAL" />
       <updated>1555303099214</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="代码优化">
+      <created>1555310974447</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1555310974448</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="989442000" />
+    <option name="totallyTimeSpent" value="989715000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
@@ -743,7 +711,8 @@
     <MESSAGE value="修复了上级用户id不显示的问题" />
     <MESSAGE value="更新。。" />
     <MESSAGE value="ui优化" />
-    <option name="LAST_COMMIT_MESSAGE" value="ui优化" />
+    <MESSAGE value="代码优化" />
+    <option name="LAST_COMMIT_MESSAGE" value="代码优化" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/js/cacheUserInfo.js" />
@@ -1083,20 +1052,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/login.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/login.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="437">
-          <caret line="23" column="10" selection-start-line="23" selection-start-column="10" selection-end-line="23" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/page/loan/loanList.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="257">
@@ -1112,6 +1067,20 @@
             <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/login.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="437">
+          <caret line="23" column="10" selection-start-line="23" selection-start-column="10" selection-end-line="23" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/login.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
         </state>
       </provider>
     </entry>

@@ -13,7 +13,7 @@ layui.use(['layer'], function () {
                     $(".username").val(result.data.username);
                     $(".phone").val(result.data.phone);
                     $(".idNumber").val(result.data.idNumber == null ? "未填写" : result.data.idNumber);
-                    $(".userId").val(result.data.userId == null ? "无" : result.data.idNumber);
+                    $(".userId").val(result.data.userId == null ? "无" : result.data.userId);
                     $(".inviteNumber").val(result.data.inviteNumber + "人");
                     $(".earn").val("￥" + result.data.earn);
                     $(".balance").val("￥" + result.data.balance);
