@@ -25,7 +25,7 @@ $(function () {
         }
     });
     $.ajax({
-        url: $.cookie("tempUrl") + "public/selectCountForWithdrawal?token=" + $.cookie("token"),
+        url: $.cookie("tempUrl") + "public/selectCountForAdmin?token=" + $.cookie("token"),
         type: "GET",
         success: function (result) {
             $(".count4 span").text(result.data);
